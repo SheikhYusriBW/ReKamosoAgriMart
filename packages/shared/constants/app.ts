@@ -1,0 +1,10 @@
+export const APP_NAME = 'ReKamoso AgriMart';
+export const DEFAULT_CURRENCY = 'BWP';
+export const DEFAULT_COUNTRY = 'BW';
+export const MAX_LISTING_IMAGES = 5;
+export const MAX_FARM_IMAGES = 10;
+export const OTP_LENGTH = 6;
+export const OTP_RESEND_SECONDS = 60;
+export const DEFAULT_PAGE_SIZE = 20;
+export const MIN_RATING = 1;
+export const MAX_RATING = 5;

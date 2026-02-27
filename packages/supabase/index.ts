@@ -1,14 +1,14 @@
-// Export Supabase client
 export { supabase } from './client';
-
-// Types will be exported from here once generated
-export * from './types';
-
-// Queries will be exported from here
+export { supabaseAdmin } from './admin-client';
+export * from './types/database.types';
 export * from './queries';
-
-// Real-time subscriptions will be exported from here
 export * from './realtime';
-
-// Storage helpers will be exported from here
-export * from './storage';
+export {
+  uploadFile,
+  getPublicUrl,
+  deleteFile,
+  uploadFarmImage,
+  uploadStoreLogo,
+  uploadAvatar as uploadAvatarToStorage,
+  uploadListingImage as uploadListingImageToStorage,
+} from './storage';
